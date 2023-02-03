@@ -1,0 +1,49 @@
+:root{
+	--background: #c3c0ba;
+	--white: #fff;
+	--blue: #002d65;
+	--gray: #706f6f;
+	--black: #000000;
+}
+*{margin:0px; padding:0px; box-sizing: border-box; font-family: system-ui;}
+body{background: var(--background);}
+.col-div-4{width: 35%; float: left;}
+.col-div-8{width: 65%; float: left;}
+.clearfix{clear: both;}
+.resume-main{width: 700px; height: 1100px; 
+	background: white;
+	margin: 50px auto;
+	box-shadow:5px 5px 5px 5px #54585d33;
+}
+.grid{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.left-box{width: 25%; float: left; height: 700px;}
+.right-box{width: 75%; float: left; background-color: var(--white); height: 700px;
+	margin: 50px 0px; border-radius: 50px 0px 0px 50px; padding:30px 50px;}
+.profile{width: 150px; height: 150px; border: 3px solid var(--white); 
+	padding: 7px; border-radius: 50%; margin: 20px auto;}
+.profile img{width: 100%; border-radius: 50%;}
+.content-box{    padding: 0px 40px 0px 45px;}
+.content-box h2{text-transform: uppercase;font-weight: 500;
+	letter-spacing: 1px; font-size: 20px;}
+.hr1{border: none; height: 1px; background: var(--white); margin-top: 3px;}
+.p1{font-size: 11px;letter-spacing: 1px;padding-top: 12px; color: var(--gray);}
+.content-box h3{font-size: 13px;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;
+    color: white;font-weight: 500;
+}
+.p2{font-size: 13px; margin-bottom: 5px; margin-top: 5px;}
+.circle{ font-size: 14px!important; margin-top: 7px;}
+.circle1{color:var(--gray); font-size: 14px!important; margin-top: 7px;}
+.in{background:var(--white);;padding: 8px;border-radius: 20px; font-size: 14px!important;}
+.inp{ font-size: 11px;}
+.col3{text-align: center;}
+h1{font-size: 50px; text-transform: uppercase; color: var(--black); line-height: 50px;}
+.p3{letter-spacing: 2px;color: darkblue; font-weight: 500;}
+.p4{letter-spacing: 2px;color: #54585d; font-weight: 100;}
+.heading{text-transform: uppercase;font-weight: 500; 
+	letter-spacing: 1px; font-size: 20px;}
+.hr2{border: none; height: 1px; background: var(--blue); margin-top: 3px;}
+.p5{font-weight: 500;color: var(--blue);}
+.span1{font-size: 12px;color: var(--gray);}
